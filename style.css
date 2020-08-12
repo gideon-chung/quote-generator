@@ -1,0 +1,15 @@
+
+html {
+/* preventing it from extra height or width when whatever your importing is bigger than the screen size */
+    box-sizing: border-box; 
+
+}
+
+body {
+    margin: 0;
+    /* vh = view port height: image in the background will always take up the 
+    size of the height of your screen even if the image may not be the size.
+    it will stretch the height of the image to fit */
+    min-height: 100vh;
+}
+
